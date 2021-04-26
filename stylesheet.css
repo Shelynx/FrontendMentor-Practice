@@ -1,0 +1,109 @@
+body, html{
+color: black;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  padding-right: 100px;
+}
+
+th {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.banner-content p{
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+  line-height: 1.6;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0;
+  padding: 0;
+  padding-right: 100px;
+  padding-bottom: 80px;
+}
+
+
+h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-variant: small-caps;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+  letter-spacing: 1px;
+  text-align: left;
+  margin: 0;
+}
+
+.attribution{
+  color: black;
+}
+
+span{
+  color: #aa5cdb;
+}
+
+/**************DIV Container***************/
+.outside-banner{
+  margin: 0;
+  padding: 60px;
+  position: fixed;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.banner{
+  position: relative;
+width: 1080px;
+height: 446px;
+padding: 60px;
+}
+
+
+
+/*******************************(Text)*********************************/
+.banner-text{
+  position: absolute;
+  top: 60px;
+  bottom: 60;
+  left: 60px;
+  right:60px;
+  width: 540;
+  height:446;
+  border-radius: 200px;
+}
+
+#table-content{
+  position: relative;
+}
+
+.left{
+  padding-left: 60px;
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+}
+
+
+
+
+/*******************************(Image)*********************************/
+.banner-image {
+  width: 540;
+  height:446;
+}
+
+img{
+  background: #aa5cdb;
+}
